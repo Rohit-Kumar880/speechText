@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg,#010758,#490d61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:#fff;
+}
+.hero h1{
+    /* font-size: 45px; */
+    font-size: 2.81rem;
+    font-weight: 500;
+    /* margin-top: -50px; */
+    margin-top:-3.125rem ;
+    /* margin-bottom: 50px; */
+    margin-bottom: 3.125rem;
+}
+.hero h1 span{
+    color: #ff2963;
+    
+}
+textarea{
+    /* width: 600px; */
+    width:37.5rem ;
+    /* height: 250px; */
+    height: 15.625rem;
+    background: #403d84;
+    color: #fff;
+    /* font-size: 15px; */
+    font-size: .9375rem;
+    border: 0;
+    outline: 0;
+    /* padding: 20px; */
+    padding: 1.25rem;
+    /* border-radius: 10px; */
+    border-radius: .625rem;
+    resize: none;
+    /* margin-bottom: 30px; */
+    margin-bottom: 1.875rem;
+
+}
+textarea::placeholder{
+    /* font-size: 16px; */
+    font-size: 1rem;
+    color: #ddd;
+}
+.row{
+    /* width: 600px; */
+    width: 37.5rem;
+    display: flex;
+    align-items: center;
+    /* gap: 20px; */
+    gap: 1.25rem;
+}
+button{
+    background: #ff2963;
+    color: #fff;
+    /* font-size: 16px; */
+    font-size:1rem ;
+    /* padding: 10px 30px; */
+    padding:.625rem 1.875rem ;
+    /* border-radius: 35px; */
+    border-radius: 2.1875rem;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+button img{
+    /* width: 16px; */
+    width: 1rem;
+    /* margin-right: 10px; */
+    margin-right: .625rem;
+}
+select{
+    flex: 1;
+    color: #fff;
+    background: #403d84;
+    /* height: 50px; */
+    height: 3.125rem;
+    /* padding: 0 20px; */
+    padding: 0 1.25rem;
+    outline: 0;
+    border: 0;
+    /* border-radius: 35px; */
+    border-radius: 2.1875rem;
+    /* appearance: none; */
+    /* background-image: url(images/dropdown.png); */
+    background-repeat: no-repeat;
+    /* background-size: 15px; */
+    background-size: .9375rem;
+    /* background-position-x:calc(100% - 20px) ; */
+    background-position-x:calc(100% - 1.25rem) ;
+    /* background-position-y: 20px; */
+    background-position-y: 1.25rem;
+}
+
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width:748px){
+    html{
+        font-size: 45%;
+    }
+}
